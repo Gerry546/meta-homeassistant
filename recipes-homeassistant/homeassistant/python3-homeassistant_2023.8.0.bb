@@ -75,6 +75,7 @@ PACKAGES += "\
     ${PN}-ssdp \
     ${PN}-stream \
     ${PN}-systemmonitor \
+    ${PN}-tradfri \
     ${PN}-tts \
     ${PN}-upnp \
     ${PN}-usb \
@@ -258,6 +259,11 @@ RDEPENDS:${PN}-systemmonitor = "\
     ${PYTHON_PN}-psutil (>=5.9.5) \
 "
 
+ALLOW_EMPTY:${PN}-tradfri = "1"
+RDEPENDS:${PN}-tradfri = "\
+    ${PYTHON_PN}-pytradfri (=9.0.1) \
+"
+
 ALLOW_EMPTY:${PN}-tts = "1"
 RDEPENDS:${PN}-tts = "\
     ${PYTHON_PN}-mutagen (=1.46.0) \
@@ -348,6 +354,7 @@ RRECOMMENDS:${PN} = "\
     ${PN}-sentry \
     ${PN}-shelly \
     ${PN}-systemmonitor \
+    ${PN}-tradfri \
     ${PN}-tts \
     ${PN}-upnp \
     ${PN}-ssdp \
