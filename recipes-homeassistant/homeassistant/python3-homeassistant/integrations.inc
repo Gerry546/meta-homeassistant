@@ -114,6 +114,11 @@ RDEPENDS:${PN}-adguard = "\
     python3-adguardhome (=0.7.0) \
 "
 
+ALLOW_EMPTY:${PN}-ads = "1"
+RDEPENDS:${PN}-ads = "\
+    python3-pyads (=3.4.0) \
+"
+
 ALLOW_EMPTY:${PN}-airthings-ble = "1"
 RDEPENDS:${PN}-airthings-ble = "\
     python3-airthings-ble (=0.9.1) \
