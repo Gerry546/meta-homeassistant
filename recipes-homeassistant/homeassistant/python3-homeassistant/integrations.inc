@@ -88,6 +88,7 @@ PACKAGES += "\
     ${PN}-zabbix \
     ${PN}-zeroconf \
     ${PN}-zestimate \
+    ${PN}-ziggo-mediabox-xl \
     ${PN}-zoneminder \
     ${PN}-zwave-js \
     ${PN}-zwave-me \
@@ -563,6 +564,11 @@ RDEPENDS:${PN}-zestimate = "\
     python3-xmltodict (=0.13.0) \
 "
 
+ALLOW_EMPTY:${PN}-ziggo-mediabox-xl = "1"
+RDEPENDS:${PN}-ziggo-mediabox-xl = "\
+    python3-ziggo-mediabox-xl (=1.1.0) \
+"
+
 ALLOW_EMPTY:${PN}-zoneminder = "1"
 RDEPENDS:${PN}-zoneminder = "\
     python3-zm-py (=0.5.4) \
@@ -673,6 +679,7 @@ RRECOMMENDS:${PN} += "\
     ${PN}-vlc \
     ${PN}-zabbix \
     ${PN}-zestimate \
+    ${PN}-ziggo-mediabox-xl \
     ${PN}-zoneminder \
     ${PN}-zwave-js \
     ${PN}-zwave-me \
