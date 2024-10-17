@@ -43,6 +43,7 @@ PACKAGES += "\
     ${PN}-ipp \
     ${PN}-isal \
     ${PN}-keyboard-remote \
+    ${PN}-kulersky \
     ${PN}-matter \
     ${PN}-met \
     ${PN}-mobile-app \
