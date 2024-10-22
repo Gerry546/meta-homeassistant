@@ -30,6 +30,7 @@ COMPONENT_TEST_PACKAGES = "\
     ${PN}-image-upload \
     ${PN}-ipp \
     ${PN}-isal \
+    ${PN}-kulersky \
     ${PN}-met \
     ${PN}-mobile-app \
     ${PN}-namecheapdns \

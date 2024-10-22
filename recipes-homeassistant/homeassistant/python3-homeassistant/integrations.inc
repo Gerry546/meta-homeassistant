@@ -341,6 +341,11 @@ RDEPENDS:${PN}-kwb = "\
     python3-pykwb (=0.0.8) \
 "
 
+ALLOW_EMPTY:${PN}-kulersky = "1"
+RDEPENDS:${PN}-kulersky = "\
+    python3-pykulersky (=0.5.2) \
+"
+
 ALLOW_EMPTY:${PN}-matter = "1"
 RDEPENDS:${PN}-matter = "\
     python3-python-matter-server (=6.5.2) \
