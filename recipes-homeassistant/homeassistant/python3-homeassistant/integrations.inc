@@ -129,7 +129,7 @@ PACKAGES += "\
 
 ALLOW_EMPTY:${PN}-acaia = "1"
 RDEPENDS:${PN}-acaia = "\
-    python3-aioacaia (=0.1.13) \
+    python3-aioacaia (=0.1.14) \
 "
 
 ALLOW_EMPTY:${PN}-accuweather = "1"
@@ -287,7 +287,7 @@ RDEPENDS:${PN}-axis = "\
 ALLOW_EMPTY:${PN}-backup = "1"
 RDEPENDS:${PN}-backup = "\
     python3-cronsim (>=2.6) \
-    python3-securetar (=2024.11.0) \
+    python3-securetar (=2025.1.4) \
 "
 
 ALLOW_EMPTY:${PN}-bluesound = "1"
@@ -298,12 +298,12 @@ RDEPENDS:${PN}-bluesound = "\
 ALLOW_EMPTY:${PN}-bluetooth = "1"
 RDEPENDS:${PN}-bluetooth = "\
     python3-bleak (>=0.22.3) \
-    python3-bleak-retry-connector (=3.6.0) \
-    python3-bluetooth-adapters (=0.20.2) \
+    python3-bleak-retry-connector (=3.8.1) \
+    python3-bluetooth-adapters (=0.21.4) \
     python3-bluetooth-auto-recovery (=1.4.2) \
-    python3-bluetooth-data-tools (=1.20.0) \
-    python3-dbus-fast (>=2.24.3) \
-    python3-habluetooth (=3.7.0) \
+    python3-bluetooth-data-tools (=1.23.4) \
+    python3-dbus-fast (>=2.33.0) \
+    python3-habluetooth (=3.21.1) \
 "
 
 ALLOW_EMPTY:${PN}-bluetooth-tracker = "1"
@@ -329,18 +329,18 @@ RDEPENDS:${PN}-cisco-ios = "\
 
 ALLOW_EMPTY:${PN}-cloud = "1"
 RDEPENDS:${PN}-cloud = "\
-    python3-hass-nabucasa (=0.87.0) \
+    python3-hass-nabucasa (=0.92.0) \
 "
 
 ALLOW_EMPTY:${PN}-compensation = "1"
 RDEPENDS:${PN}-compensation = "\
-    python3-numpy (>=2.2.0) \
+    python3-numpy (>=2.2.2) \
 "
 
 ALLOW_EMPTY:${PN}-conversation = "1"
 RDEPENDS:${PN}-conversation = "\
-    python3-hassil (>=2.1.0) \
-    python3-home-assistant-intents (>=2025.1.1) \
+    python3-hassil (>=2.2.3) \
+    python3-home-assistant-intents (>=2025.2.5) \
 "
 
 ALLOW_EMPTY:${PN}-cpuspeed = "1"
@@ -360,20 +360,20 @@ RDEPENDS:${PN}-decora-wifi = "\
 
 ALLOW_EMPTY:${PN}-dhcp = "1"
 RDEPENDS:${PN}-dhcp = "\
-    python3-aiodhcpwatcher (=1.0.2) \
+    python3-aiodhcpwatcher (=1.0.3) \
     python3-aiodiscover (=2.1.0) \
     python3-cached-ipaddress (=0.8.0) \
 "
 
 ALLOW_EMPTY:${PN}-dlna-dmr = "1"
 RDEPENDS:${PN}-dlna-dmr = "\
-    python3-async-upnp-client (=0.42.0) \
-    python3-getmac (=0.9.4) \
+    python3-async-upnp-client (=0.43.0) \
+    python3-getmac (=0.9.5) \
 "
 
 ALLOW_EMPTY:${PN}-dlna-dms = "1"
 RDEPENDS:${PN}-dlna-dms = "\
-    python3-async-upnp-client (=0.42.0) \
+    python3-async-upnp-client (=0.43.0) \
 "
 
 ALLOW_EMPTY:${PN}-dunehd = "1"
@@ -404,7 +404,7 @@ RDEPENDS:${PN}-fritz = "\
 
 ALLOW_EMPTY:${PN}-fritzbox = "1"
 RDEPENDS:${PN}-fritzbox = "\
-    python3-pyfritzhome (=0.6.12) \
+    python3-pyfritzhome (=0.6.14) \
 "
 
 ALLOW_EMPTY:${PN}-fritzbox-callmonitor = "1"
@@ -414,7 +414,7 @@ RDEPENDS:${PN}-fritzbox-callmonitor = "\
 
 ALLOW_EMPTY:${PN}-frontend = "1"
 RDEPENDS:${PN}-frontend = "\
-    python3-home-assistant-frontend (>=20250109.2) \
+    python3-home-assistant-frontend (>=20250214.0) \
 "
 
 ALLOW_EMPTY:${PN}-generic = "1"
@@ -450,7 +450,7 @@ RDEPENDS:${PN}-google-tasks = "\
 
 ALLOW_EMPTY:${PN}-google-translate = "1"
 RDEPENDS:${PN}-google-translate = "\
-    python3-gtts (=2.2.4) \
+    python3-gtts (=2.5.3) \
 "
 
 ALLOW_EMPTY:${PN}-hardware = "1"
@@ -465,7 +465,7 @@ RDEPENDS:${PN}-hue = "\
 
 ALLOW_EMPTY:${PN}-image-upload = "1"
 RDEPENDS:${PN}-image-upload = "\
-    python3-pillow (>=11.0.0) \
+    python3-pillow (>=11.1.0) \
 "
 
 ALLOW_EMPTY:${PN}-ipp = "1"
@@ -481,7 +481,7 @@ RDEPENDS:${PN}-isal = "\
 ALLOW_EMPTY:${PN}-keyboard-remote = "1"
 RDEPENDS:${PN}-keyboard-remote = "\
     python3-evdev (>=1.6.1) \
-    python3-asyncinotify (>=4.0.2) \
+    python3-asyncinotify (>=4.2.0) \
 "
 
 ALLOW_EMPTY:${PN}-kwb = "1"
@@ -496,7 +496,7 @@ RDEPENDS:${PN}-local-calendar = "\
 
 ALLOW_EMPTY:${PN}-local-todo = "1"
 RDEPENDS:${PN}-local-todo = "\
-    python3-ical (>=8.2.0) \
+    python3-ical (>=8.3.0) \
 "
 
 ALLOW_EMPTY:${PN}-luftdaten = "1"
@@ -506,7 +506,7 @@ RDEPENDS:${PN}-luftdaten = "\
 
 ALLOW_EMPTY:${PN}-matter = "1"
 RDEPENDS:${PN}-matter = "\
-    python3-python-matter-server (=6.6.0) \
+    python3-python-matter-server (=7.0.0) \
 "
 
 ALLOW_EMPTY:${PN}-met = "1"
@@ -521,7 +521,7 @@ RDEPENDS:${PN}-mobile-app = "\
 
 ALLOW_EMPTY:${PN}-modbus = "1"
 RDEPENDS:${PN}-modbus = "\
-    python3-pymodbus (>=3.7.4) \
+    python3-pymodbus (>=3.8.3) \
 "
 
 ALLOW_EMPTY:${PN}-mqtt = "1"
@@ -542,7 +542,7 @@ RDEPENDS:${PN}-network = "\
 ALLOW_EMPTY:${PN}-nmap-tracker = "1"
 RDEPENDS:${PN}-nmap-tracker = "\
     python3-aiooui (=0.1.9) \
-    python3-getmac (=0.9.4) \
+    python3-getmac (=0.9.5) \
     python3-netmap (=0.7.0.2) \
 "
 
@@ -578,7 +578,7 @@ RDEPENDS:${PN}-pandora = "\
 
 ALLOW_EMPTY:${PN}-private-ble-device = "1"
 RDEPENDS:${PN}-private-ble-device = "\
-    python3-bluetooth-data-tools (=1.20.0) \
+    python3-bluetooth-data-tools (=1.23.4) \
 "
 
 ALLOW_EMPTY:${PN}-proxy = "1"
@@ -605,7 +605,7 @@ RDEPENDS:${PN}-radio-browser = "\
 ALLOW_EMPTY:${PN}-recorder = "1"
 RDEPENDS:${PN}-recorder = "\
     python3-sqlite3 \
-    python3-fnv-hash-fast (=1.0.2) \
+    python3-fnv-hash-fast (=1.2.2) \
     python3-sqlalchemy (>=2.0.36) \
     python3-psutil-home-assistant (=0.0.1) \
 "
@@ -623,7 +623,7 @@ RDEPENDS:${PN}-scrape = "\
 
 ALLOW_EMPTY:${PN}-sentry = "1"
 RDEPENDS:${PN}-sentry = "\
-    python3-sentry-sdk (>=1.40.3) \
+    python3-sentry-sdk (>=1.45.1) \
 "
 
 ALLOW_EMPTY:${PN}-seven-segments = "1"
@@ -633,7 +633,7 @@ RDEPENDS:${PN}-seven-segments = "\
 
 ALLOW_EMPTY:${PN}-shelly = "1"
 RDEPENDS:${PN}-shelly = "\
-    python3-aioshelly (=12.2.0) \
+    python3-aioshelly (=12.4.2) \
 "
 
 ALLOW_EMPTY:${PN}-simplisafe = "1"
@@ -659,7 +659,7 @@ RDEPENDS:${PN}-sql = "\
 
 ALLOW_EMPTY:${PN}-ssdp = "1"
 RDEPENDS:${PN}-ssdp = "\
-    python3-async-upnp-client (=0.42.0) \
+    python3-async-upnp-client (=0.43.0) \
 "
 
 ALLOW_EMPTY:${PN}-startca = "1"
@@ -681,7 +681,7 @@ RDEPENDS:${PN}-switchbot = "\
 
 ALLOW_EMPTY:${PN}-systemmonitor = "1"
 RDEPENDS:${PN}-systemmonitor = "\
-    python3-psutil (>=6.1.0) \
+    python3-psutil (>=6.1.1) \
     python3-psutil-home-assistant (=0.0.1) \
 "
 
@@ -712,7 +712,7 @@ RDEPENDS:${PN}-trafikverket-weatherstation = "\
 
 ALLOW_EMPTY:${PN}-trend = "1"
 RDEPENDS:${PN}-trend = "\
-    python3-numpy (>=2.2.0) \
+    python3-numpy (>=2.2.2) \
 "
 
 ALLOW_EMPTY:${PN}-tts = "1"
@@ -722,14 +722,14 @@ RDEPENDS:${PN}-tts = "\
 
 ALLOW_EMPTY:${PN}-upnp = "1"
 RDEPENDS:${PN}-upnp = "\
-    python3-async-upnp-client (=0.42.0) \
-    python3-getmac (=0.9.4) \
+    python3-async-upnp-client (=0.43.0) \
+    python3-getmac (=0.9.5) \
 "
 
 ALLOW_EMPTY:${PN}-usb = "1"
 RDEPENDS:${PN}-usb = "\
     python3-pyserial (=3.5) \
-    python3-pyudev (>=0.24.1) \
+    python3-aiousbwatcher (>=1.1.1) \
 "
 
 ALLOW_EMPTY:${PN}-utility-meter = "1"
@@ -759,7 +759,7 @@ RDEPENDS:${PN}-zabbix = "\
 
 ALLOW_EMPTY:${PN}-zeroconf = "1"
 RDEPENDS:${PN}-zeroconf = "\
-    python3-zeroconf (>=0.136.2) \
+    python3-zeroconf (>=0.144.1) \
 "
 
 ALLOW_EMPTY:${PN}-zestimate = "1"
@@ -769,7 +769,7 @@ RDEPENDS:${PN}-zestimate = "\
 
 ALLOW_EMPTY:${PN}-zha = "1"
 RDEPENDS:${PN}-zha = "\
-    python3-zha (>=0.0.45) \
+    python3-zha (>=0.0.49) \
     python3-universal-silabs-flasher (>=0.0.25) \
 "
 
