@@ -1,4 +1,4 @@
-From 844fc844c6e6c4ded5e88f5a4bddc9bfe19f9570 Mon Sep 17 00:00:00 2001
+From 9811ba5b0cf619d98171395fe2f85822bfbd538e Mon Sep 17 00:00:00 2001
 From: Tom Geelen <t.f.g.geelen@gmail.com>
 Date: Sun, 1 Sep 2024 19:38:30 +0000
 Subject: [PATCH] Make project PEP-517 compliant
