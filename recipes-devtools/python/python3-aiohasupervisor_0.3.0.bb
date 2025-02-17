@@ -10,7 +10,7 @@ SRC_URI = "git://github.com/home-assistant-libs/python-supervisor-client;branch=
            "
 
 SRC_URI[sha256sum] = "26af5c49d30c5d58111e140ad4bb86c1547a1814c8af0ded87bcbd86e4524233"
-SRCREV = "51a8a78e82bac3fc816fabb7ffcc1b53232552ba"
+SRCREV = "8969cbfa51f795c3ec63b7ab1a0e8f8a3cd108f5"
 
 inherit python_setuptools_build_meta ptest
 
