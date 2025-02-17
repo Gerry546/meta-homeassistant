@@ -2,6 +2,7 @@ SUMMARY = "A library for zigpy which communicates with TI ZNP radios"
 HOMEPAGE = "https://github.com/zigpy/zigpy-znp"
 LICENSE = "GPL-3.0-or-later"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=d32239bcb673463ab874e80d47fae504"
+RECIPE_MAINTAINER = "Tom Geelen <t.f.g.geelen@gmail.com>"
 
 DEPENDS += "\
     python3-setuptools-git-versioning-native \
@@ -13,6 +14,8 @@ SRC_URI[sha256sum] = "31f20feec96df32a0cb7cdd64f3864f1ac72fc6363087caa7ef52fa61a
 inherit pypi python_setuptools_build_meta
 
 PYPI_PACKAGE = "zigpy_znp"
+UPSTREAM_CHECK_PYPI_PACKAGE = "${PYPI_PACKAGE}"
+
 RDEPENDS:${PN} = "\
     python3-async-timeout \
     python3-coloredlogs \

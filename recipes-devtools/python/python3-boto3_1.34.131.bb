@@ -2,6 +2,7 @@ DESCRIPTION = "AWS SDK for Python"
 HOMEPAGE = "https://github.com/boto/boto3"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=2ee41112a44fe7014dce33e26468ba93"
+RECIPE_MAINTAINER = "Tom Geelen <t.f.g.geelen@gmail.com>"
 
 SRC_URI = "\
     git://github.com/boto/boto3.git;protocol=https;branch=master \
@@ -12,7 +13,7 @@ SRCREV = "fd8bccadc77b2ea53d786afcf77148955acf15aa"
 
 inherit setuptools3 ptest
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 RDEPENDS:${PN} = "\
     python3-botocore (>=1.34.131) \

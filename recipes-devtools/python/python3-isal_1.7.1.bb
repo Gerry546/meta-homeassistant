@@ -4,6 +4,7 @@ LICENSE = "PSF-2.0"
 LIC_FILES_CHKSUM = "\
     file://${WHL_BP}.dist-info/LICENSE;md5=18130810ab035d8cac1d00602892f13d \
 "
+RECIPE_MAINTAINER = "Tom Geelen <t.f.g.geelen@gmail.com>"
 
 # TODO: currently trying to build this from sources is not working correctly. Somehow it tries to always use the HOST architecture
 # and setup instead of using the correct sysroot.

@@ -2,6 +2,7 @@ SUMMARY = "Basic bluetooth models used by Home Assistant."
 HOMEPAGE = "https://github.com/home-assistant-libs/home-assistant-bluetooth"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=732518afbb3ba92dbf606e49f9045cc9"
+RECIPE_MAINTAINER = "Tom Geelen <t.f.g.geelen@gmail.com>"
 
 SRC_URI = "git://github.com/home-assistant-libs/home-assistant-bluetooth.git;protocol=https;branch=main;"
 SRCREV = "d4fd8a5fcad393c10f6c7472d93e996f0a0c31ba"

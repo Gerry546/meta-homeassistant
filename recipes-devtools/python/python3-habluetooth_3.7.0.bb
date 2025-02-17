@@ -2,6 +2,7 @@ SUMMARY = "High availability Bluetooth"
 HOMEPAGE = "https://github.com/bluetooth-devices/habluetooth"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=da57f3e0372e39698a274746eb9d65d6"
+RECIPE_MAINTAINER = "Tom Geelen <t.f.g.geelen@gmail.com>"
 
 SRC_URI = "\
     git://github.com/Bluetooth-Devices/habluetooth.git;protocol=https;branch=main \
@@ -12,7 +13,7 @@ SRCREV = "4cb25cb87f8bc5bbc613cfac68df6a140b3e0793"
 
 inherit python_poetry_core ptest cython
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 RDEPENDS:${PN} = "\
     python3-core (>=3.11) \

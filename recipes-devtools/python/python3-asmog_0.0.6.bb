@@ -2,6 +2,7 @@ SUMMARY = "Python API for Ampio Smog Sensors"
 HOMEPAGE = "https://github.com/kstaniek/python-ampio-smog-api"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE.md;md5=2b42edef8fa55315f34f2370b4715ca9"
+RECIPE_MAINTAINER = "Tom Geelen <t.f.g.geelen@gmail.com>"
 
 SRC_URI[sha256sum] = "93c742de0da863f6f8c389bb63f1d4cbfebfdd39b5927b71f6d8e8c97a836891"
 

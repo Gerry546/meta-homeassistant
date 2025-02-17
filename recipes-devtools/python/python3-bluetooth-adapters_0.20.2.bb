@@ -2,6 +2,7 @@ SUMMARY = "Tools to enumerate and find Bluetooth Adapters"
 HOMEPAGE = "https://github.com/bluetooth-devices/bluetooth-adapters"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=732518afbb3ba92dbf606e49f9045cc9"
+RECIPE_MAINTAINER = "Tom Geelen <t.f.g.geelen@gmail.com>"
 
 SRC_URI = "\
     git://github.com/Bluetooth-Devices/bluetooth-adapters.git;protocol=https;branch=main \

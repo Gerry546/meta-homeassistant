@@ -2,6 +2,7 @@ SUMMARY = "Library implementing EZSP"
 HOMEPAGE = "https://github.com/zigpy/bellows"
 LICENSE = "GPL-3.0-only"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=d32239bcb673463ab874e80d47fae504"
+RECIPE_MAINTAINER = "Tom Geelen <t.f.g.geelen@gmail.com>"
 
 DEPENDS += "\
     python3-setuptools-git-versioning-native \

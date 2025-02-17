@@ -5,6 +5,7 @@ SUMMARY = "\
 HOMEPAGE = "https://github.com/project-chip/connectedhomeip"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://${WHL_BP}.dist-info/LICENSE;md5=86d3f3a95c324c9479bd8986968f4327"
+RECIPE_MAINTAINER = "Tom Geelen <t.f.g.geelen@gmail.com>"
 
 # TODO: currently the pypi version point actually to the link above in HOMEPAGE. However there is no
 # direct clear link between what HA is using and what version is upstream. So for now we will directly use the wheel.

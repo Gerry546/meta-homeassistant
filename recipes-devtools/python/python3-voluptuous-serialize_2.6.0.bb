@@ -1,6 +1,7 @@
 SUMMARY = "Convert Voluptuous schemas to dictionaries so they can be serialized."
 HOMEPAGE = "http://github.com/balloob/voluptuous-serialize"
 LICENSE = "Apache-2.0"
+RECIPE_MAINTAINER = "Tom Geelen <t.f.g.geelen@gmail.com>"
 
 inherit setuptools3 pypi
 

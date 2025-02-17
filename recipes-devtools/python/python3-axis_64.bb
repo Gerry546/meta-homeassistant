@@ -2,6 +2,7 @@ SUMMARY = "Python library enabling easy communication with Axis devices and its 
 HOMEPAGE = "https://github.com/Kane610/axis"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=78a6a0bb7d76993abedec7510368fb0e"
+RECIPE_MAINTAINER = "Tom Geelen <t.f.g.geelen@gmail.com>"
 
 SRC_URI += "  file://0001-relax-setuptools-version.patch"
 SRC_URI[sha256sum] = "12a70f61faec1599baad1b7a5ba8b182eea7c5e0ec8f0ca071e268b9759c8c7f"
