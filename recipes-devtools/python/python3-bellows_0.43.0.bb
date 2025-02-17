@@ -8,7 +8,7 @@ DEPENDS += "\
 "
 
 SRC_URI += "file://0001-Allow-setuptools-git-versioning-3.patch"
-SRC_URI[sha256sum] = "89974b6704351a145962fe6897a077f956b9633218fc3736d21539a6aeb9c8a4"
+SRC_URI[sha256sum] = "95671fd16a3fa3bc2ef1b1e3f0f4b31a425faea48fc721122d86593f17486afe"
 
 inherit pypi python_setuptools_build_meta
 
@@ -19,5 +19,5 @@ RDEPENDS:${PN} = "\
     python3-click-log (>=0.2.1) \
     python3-pure-pcapy3 (>=1.0.1) \
     python3-voluptuous \
-    python3-zigpy (>=0.70.0) \
+    python3-zigpy (>=0.75.0) \
 "

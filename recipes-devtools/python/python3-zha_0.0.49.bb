@@ -7,16 +7,16 @@ DEPENDS += "\
     python3-setuptools-git-versioning-native \
 "
 
-SRC_URI[sha256sum] = "51a753b1f406ad7fe084bfb78bb9057f572f525e72b4cb4dbd9a492e72efe75d"
+SRC_URI[sha256sum] = "bd2007d54105d017d44bd0a2ee43fb8456f63a9981189002a1ba9d6769273e0d"
 
 inherit pypi python_setuptools_build_meta
 
 RDEPENDS:${PN} += "\
-    python3-bellows (>=0.42.6) \
+    python3-bellows (>=0.43.0) \
     python3-pyserial (>=3.5) \
     python3-pyserial-asyncio-fast \
-    python3-zha-quirks (>=0.0.130) \
-    python3-zigpy (>=0.74.0) \
+    python3-zha-quirks (>=0.0.133) \
+    python3-zigpy (>=0.76.1) \
     python3-zigpy-deconz (>=0.24.1) \
     python3-zigpy-xbee (>=0.21.0) \
     python3-zigpy-zigate (>-0.13.2) \
