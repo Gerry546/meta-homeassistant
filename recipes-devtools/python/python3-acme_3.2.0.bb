@@ -6,7 +6,7 @@ RECIPE_MAINTAINER = "Tom Geelen <t.f.g.geelen@gmail.com>"
 
 inherit pypi setuptools3
 
-SRC_URI[sha256sum] = "2f4ae207c8a6791a2bc74cd18d60274766f483c2059145b0142cbb43e761331c"
+SRC_URI[sha256sum] = "e11d0ccf43ec19244ada40df1dc4ca49c9ce407749f3771d2cefe0674e206d84"
 
 RDEPENDS:${PN} = "\
     python3-cryptography (>=3.2.1) \
