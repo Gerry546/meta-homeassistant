@@ -7,7 +7,7 @@ RECIPE_MAINTAINER = "Tom Geelen <t.f.g.geelen@gmail.com>"
 SRC_URI = "\
     file://run-ptest \
 "
-SRC_URI[sha256sum] = "d0c8bbf672d5eebbe4e57945e23b972d963f07d82f661cabf678a5c88831595b"
+SRC_URI[sha256sum] = "3b39185cb72f5acc77db1a58b6e25b977f28d20496b6e58d6813d75f464d632f"
 
 inherit pypi setuptools3 ptest
 
