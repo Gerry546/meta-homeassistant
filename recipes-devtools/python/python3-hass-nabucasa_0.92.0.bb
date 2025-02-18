@@ -6,7 +6,7 @@ RECIPE_MAINTAINER = "Tom Geelen <t.f.g.geelen@gmail.com>"
 
 inherit pypi python_setuptools_build_meta
 
-SRC_URI[sha256sum] = "5fa1c174c28436dfdaea3f9e05c138dc9f4d8273fd3da2af6a481791849e4a00"
+SRC_URI[sha256sum] = "ea926736f79319b086efb5ee247ad32c855c206958d881331b0591de82cf07a3"
 
 PYPI_PACKAGE = "hass_nabucasa"
 UPSTREAM_CHECK_PYPI_PACKAGE = "${PYPI_PACKAGE}"
