@@ -4,7 +4,7 @@ LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=5d503272f52c35147ec960cb56a03bf4"
 RECIPE_MAINTAINER = "Tom Geelen <t.f.g.geelen@gmail.com>"
 
-SRC_URI[sha256sum] = "fa7cedcc9c0fdef8e0f96ae9db2dd30cdd829477e97e99f2b3dfa347ce3861bf"
+SRC_URI[sha256sum] = "e4c0aae60cf31c458a367732605060d027a8aa3743915a3a0603dd5074a8c89d"
 
 inherit pypi setuptools3
 
