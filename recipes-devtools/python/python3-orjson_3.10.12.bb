@@ -8,7 +8,7 @@ RECIPE_MAINTAINER = "Tom Geelen <t.f.g.geelen@gmail.com>"
 
 PYPI_PACKAGE = "orjson"
 
-SRC_URI[sha256sum] = "05ca7fe452a2e9d8d9d706a2984c95b9c2ebc5db417ce0b7a49b91d50642a23e"
+SRC_URI[sha256sum] = "0a78bbda3aea0f9f079057ee1ee8a1ecf790d4f1af88dd67493c6b8ee52506ff"
 SRC_URI:append = " \
     file://0001-Fix-compilation-error-for-orjson.patch \
 "
