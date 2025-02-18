@@ -180,7 +180,7 @@ RDEPENDS:${PN}-agent-dvr = "\
 
 ALLOW_EMPTY:${PN}-airgradient = "1"
 RDEPENDS:${PN}-airgradient = "\
-    python3-airgradient (=0.9.1) \
+    python3-airgradient (>=0.9.1) \
 "
 
 ALLOW_EMPTY:${PN}-airly = "1"
@@ -195,7 +195,7 @@ RDEPENDS:${PN}-airnow = "\
 
 ALLOW_EMPTY:${PN}-airq = "1"
 RDEPENDS:${PN}-airq = "\
-    python3-aioairq (=0.4.3) \
+    python3-aioairq (>=0.4.3) \
 "
 
 ALLOW_EMPTY:${PN}-airthings = "1"
@@ -270,7 +270,7 @@ RDEPENDS:${PN}-aruba = "\
 
 ALLOW_EMPTY:${PN}-assist-pipeline = "1"
 RDEPENDS:${PN}-assist-pipeline = "\
-    python3-pymicro-vad (=1.0.1) \
+    python3-pymicro-vad (>=1.0.1) \
     python3-pyspeex-noise (=1.0.2) \
 "
 
@@ -287,7 +287,7 @@ RDEPENDS:${PN}-axis = "\
 ALLOW_EMPTY:${PN}-backup = "1"
 RDEPENDS:${PN}-backup = "\
     python3-cronsim (>=2.6) \
-    python3-securetar (=2025.1.4) \
+    python3-securetar (>=2025.1.4) \
 "
 
 ALLOW_EMPTY:${PN}-bluesound = "1"
@@ -298,10 +298,10 @@ RDEPENDS:${PN}-bluesound = "\
 ALLOW_EMPTY:${PN}-bluetooth = "1"
 RDEPENDS:${PN}-bluetooth = "\
     python3-bleak (>=0.22.3) \
-    python3-bleak-retry-connector (=3.8.1) \
+    python3-bleak-retry-connector (>=3.8.1) \
     python3-bluetooth-adapters (=0.21.4) \
     python3-bluetooth-auto-recovery (=1.4.2) \
-    python3-bluetooth-data-tools (=1.23.4) \
+    python3-bluetooth-data-tools (>=1.23.4) \
     python3-dbus-fast (>=2.33.0) \
     python3-habluetooth (=3.21.1) \
 "
@@ -314,7 +314,7 @@ RDEPENDS:${PN}-bluetooth-tracker = "\
 
 ALLOW_EMPTY:${PN}-camera = "1"
 RDEPENDS:${PN}-camera = "\
-    python3-pyturbojpeg (=1.7.5) \
+    python3-pyturbojpeg (>=1.7.5) \
 "
 
 ALLOW_EMPTY:${PN}-cast = "1"
@@ -350,7 +350,7 @@ RDEPENDS:${PN}-cpuspeed = "\
 
 ALLOW_EMPTY:${PN}-debugpy = "1"
 RDEPENDS:${PN}-debugpy = "\
-    python3-debugpy (=1.8.11) \
+    python3-debugpy (>=1.8.11) \
 "
 
 ALLOW_EMPTY:${PN}-decora-wifi = "1"
@@ -360,7 +360,7 @@ RDEPENDS:${PN}-decora-wifi = "\
 
 ALLOW_EMPTY:${PN}-dhcp = "1"
 RDEPENDS:${PN}-dhcp = "\
-    python3-aiodhcpwatcher (=1.0.3) \
+    python3-aiodhcpwatcher (>=1.0.3) \
     python3-aiodiscover (=2.1.0) \
     python3-cached-ipaddress (=0.8.0) \
 "
@@ -378,7 +378,7 @@ RDEPENDS:${PN}-dlna-dms = "\
 
 ALLOW_EMPTY:${PN}-dunehd = "1"
 RDEPENDS:${PN}-dunehd = "\
-    python3-pdunehd (=1.3.2) \
+    python3-pdunehd (>=1.3.2) \
 "
 
 ALLOW_EMPTY:${PN}-evohome = "1"
@@ -450,7 +450,7 @@ RDEPENDS:${PN}-google-tasks = "\
 
 ALLOW_EMPTY:${PN}-google-translate = "1"
 RDEPENDS:${PN}-google-translate = "\
-    python3-gtts (=2.5.3) \
+    python3-gtts (>=2.5.3) \
 "
 
 ALLOW_EMPTY:${PN}-hardware = "1"
@@ -486,7 +486,7 @@ RDEPENDS:${PN}-keyboard-remote = "\
 
 ALLOW_EMPTY:${PN}-kwb = "1"
 RDEPENDS:${PN}-kwb = "\
-    python3-pykwb (=0.0.8) \
+    python3-pykwb (>=0.0.8) \
 "
 
 ALLOW_EMPTY:${PN}-local-calendar = "1"
@@ -506,7 +506,7 @@ RDEPENDS:${PN}-luftdaten = "\
 
 ALLOW_EMPTY:${PN}-matter = "1"
 RDEPENDS:${PN}-matter = "\
-    python3-python-matter-server (=7.0.0) \
+    python3-python-matter-server (>=7.0.0) \
 "
 
 ALLOW_EMPTY:${PN}-met = "1"
@@ -553,7 +553,7 @@ RDEPENDS:${PN}-norway-air = "\
 
 ALLOW_EMPTY:${PN}-octoprint = "1"
 RDEPENDS:${PN}-octoprint = "\
-    python3-pyoctoprintapi (=0.1.12) \
+    python3-pyoctoprintapi (>=0.1.12) \
 "
 
 ALLOW_EMPTY:${PN}-ohmconnect = "1"
@@ -563,7 +563,7 @@ RDEPENDS:${PN}-ohmconnect = "\
 
 ALLOW_EMPTY:${PN}-otp = "1"
 RDEPENDS:${PN}-otp = "\
-    python3-pyotp (=2.8.0) \
+    python3-pyotp (>=2.8.0) \
 "
 
 ALLOW_EMPTY:${PN}-owntracks = "1"
@@ -578,7 +578,7 @@ RDEPENDS:${PN}-pandora = "\
 
 ALLOW_EMPTY:${PN}-private-ble-device = "1"
 RDEPENDS:${PN}-private-ble-device = "\
-    python3-bluetooth-data-tools (=1.23.4) \
+    python3-bluetooth-data-tools (>=1.23.4) \
 "
 
 ALLOW_EMPTY:${PN}-proxy = "1"
@@ -669,14 +669,14 @@ RDEPENDS:${PN}-startca = "\
 
 ALLOW_EMPTY:${PN}-stream = "1"
 RDEPENDS:${PN}-stream = "\
-    python3-pyturbojpeg (=1.7.5) \
+    python3-pyturbojpeg (>=1.7.5) \
     python3-av (=13.1.0) \
     python3-numpy (>=2.2.0) \
 "
 
 ALLOW_EMPTY:${PN}-switchbot = "1"
 RDEPENDS:${PN}-switchbot = "\
-    python3-pyswitchbot (=0.55.4) \
+    python3-pyswitchbot (>=0.55.4) \
 "
 
 ALLOW_EMPTY:${PN}-systemmonitor = "1"
