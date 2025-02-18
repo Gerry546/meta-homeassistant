@@ -4,7 +4,7 @@ LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=732518afbb3ba92dbf606e49f9045cc9"
 RECIPE_MAINTAINER = "Tom Geelen <t.f.g.geelen@gmail.com>"
 
-SRC_URI[sha256sum] = "1c11aca1a25e045e0baf1f88ebb0de53d2844e357d6017dc6c143c20e20b3436"
+SRC_URI[sha256sum] = "e5495fed2ea741de6144951012b48e5fcc43b766b1b3d865fe30758f08936ef1"
 
 PYPI_PACKAGE = "bluetooth_data_tools"
 UPSTREAM_CHECK_PYPI_PACKAGE = "${PYPI_PACKAGE}"
