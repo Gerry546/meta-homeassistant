@@ -4,7 +4,7 @@ LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=3b83ef96387f14655fc854ddc3c6bd57"
 RECIPE_MAINTAINER = "Tom Geelen <t.f.g.geelen@gmail.com>"
 
-SRC_URI[sha256sum] = "1252c34b6bf0f5c0680dffe36e1961bd23da9dd77838fc8ece35bcf87a3bf6df"
+SRC_URI[sha256sum] = "ee60fdc9236fd6709271ad53b44027461360c3fde155d2af15482e4c451ff865"
 
 inherit pypi python_flit_core
 
