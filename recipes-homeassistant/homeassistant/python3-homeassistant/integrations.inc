@@ -233,7 +233,7 @@ RDEPENDS:${PN}-airvisual-pro = "\
 
 ALLOW_EMPTY:${PN}-airzone = "1"
 RDEPENDS:${PN}-airzone = "\
-    python3-aioairzone (=0.9.9) \
+    python3-aioairzone (>=0.9.9) \
 "
 
 ALLOW_EMPTY:${PN}-airzone-cloud = "1"
@@ -653,7 +653,7 @@ RDEPENDS:${PN}-seven-segments = "\
 
 ALLOW_EMPTY:${PN}-shelly = "1"
 RDEPENDS:${PN}-shelly = "\
-    python3-aioshelly (=13.4.0) \
+    python3-aioshelly (>=13.4.0) \
 "
 
 ALLOW_EMPTY:${PN}-simplisafe = "1"
