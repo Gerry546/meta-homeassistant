@@ -4,12 +4,9 @@ LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=dab31a1d28183826937f4b152143a33f"
 RECIPE_MAINTAINER = "Tom Geelen <t.f.g.geelen@gmail.com>"
 
-inherit pypi python_setuptools_build_meta ptest
+inherit pypi python_setuptools_build_meta ptest-python-pytest
 
-SRC_URI = "\
-    file://run-ptest \
-"
-SRC_URI[sha256sum] = "347c1d5dc1c5f6d2d3f15d04cdad54209cb928251ba46ae4f3e173185f6a13b4"
+SRC_URI[sha256sum] = "292ddd8a51f4ae8eaa66ffc949e2988d0fae8445921845449addd0347308a54e"
 
 RDEPENDS:${PN} = "\
     python3-aiohttp (>=3.11.1) \
@@ -19,13 +16,6 @@ RDEPENDS:${PN} = "\
     python3-orjson (>=3.8.1) \
 "
 
-RDEPENDS:${PN}-ptest = "\
-    python3-pytest \
+RDEPENDS:${PN}-ptest += "\
     python3-pytest-asyncio \
-    python3-unittest-automake-output \
 "
-
-do_install_ptest() {
-    install -d ${D}${PTEST_PATH}/tests
-    cp -rf ${S}/tests/rpc_device/* ${D}${PTEST_PATH}/tests/
-}
