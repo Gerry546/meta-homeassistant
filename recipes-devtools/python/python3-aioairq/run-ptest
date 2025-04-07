@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Ignore test_core_on_device as this expects physical components
+
+pytest --automake \
+    --ignore=tests/test_core_on_device.py \
