@@ -12,7 +12,7 @@ SRCREV = "cb9f09872578a8cfb022e1c8e622fab904940231"
 
 inherit python_poetry_core ptest-python-pytest
 
-S = "${UNPACKDIR}/git"
+S = "${WORKDIR}/git"
 
 RDEPENDS:${PN} = "\
     python3-aiohttp (>=3.9.0) \
