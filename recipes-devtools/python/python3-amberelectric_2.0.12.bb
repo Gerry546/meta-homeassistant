@@ -2,6 +2,7 @@ SUMMARY = "Amber Electric Public API"
 HOMEPAGE = "https://github.com/madpilot/amberelectric.py"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=f9868a9dc1babed846d3fcc1e734f5b5"
+RECIPE_MAINTAINER = "Tom Geelen <t.f.g.geelen@gmail.com>"
 
 SRC_URI[sha256sum] = "2970a8c0e59643b830606d8d7d2f12ced24f73be572016b7d0356f5479fdcc20"
 
