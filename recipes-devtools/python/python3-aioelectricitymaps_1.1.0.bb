@@ -4,7 +4,7 @@ LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=9647659b324628f18a7bc41e3f7bfbf7"
 RECIPE_MAINTAINER = "Tom Geelen <t.f.g.geelen@gmail.com>"
 
-SRC_URI[sha256sum] = "93c7f73df2fae97cffd661bef7a2397788ac582d63cedb45af0f81a5b2062676"
+SRC_URI[sha256sum] = "489de78c4c4bd7413a8db8989f5fd9113f3e9527b6a2d592492df7fe4a2786c4"
 
 inherit pypi python_poetry_core
 
