@@ -1,0 +1,22 @@
+From 3ddaee4e8f0d567d5d8a176954141d0b482bbeac Mon Sep 17 00:00:00 2001
+From: Tom Geelen <t.f.g.geelen@gmail.com>
+Date: Tue, 17 Jun 2025 23:24:22 +0200
+Subject: [PATCH] relax build deps
+
+Signed-off-by: Tom Geelen <t.f.g.geelen@gmail.com>
+Upstream-Status: Pending
+---
+ pyproject.toml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/pyproject.toml b/pyproject.toml
+index 8cdb20f..61efa7e 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -1,5 +1,5 @@
+ [build-system]
+-requires = ['setuptools>=77.0', 'Cython>=3,<3.1', "poetry-core>=2.0.0"]
++requires = ['setuptools>=77.0', 'Cython>=3', "poetry-core>=2.0.0"]
+ build-backend = "poetry.core.masonry.api"
+ 
+ [project]
