@@ -14,7 +14,7 @@ PYPI_PACKAGE = "home_assistant_frontend"
 UPSTREAM_CHECK_PYPI_PACKAGE = "${PYPI_PACKAGE}"
 
 SRC_URI += "file://0001-relax-build-deps.patch"
-SRC_URI[sha256sum] = "9bfe860150882303af963e7eb3b3e6e80334b06fe15962cc8c31c5eb77c29848"
+SRC_URI[sha256sum] = "e6c0c8884dc6402b341a5d19a2a412fd7632ca97da432d09123ecb3599fa1f47"
 
 RDEPENDS:${PN} += "\
     python3-core (>=3.11) \
