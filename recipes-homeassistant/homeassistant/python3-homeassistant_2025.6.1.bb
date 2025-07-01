@@ -9,13 +9,13 @@ HOMEASSISTANT_CONFIG_DIR[doc] = "Configuration directory used by home-assistant.
 HOMEASSISTANT_USER ?= "homeassistant"
 HOMEASSISTANT_USER[doc] = "User the home-assistent service runs as."
 
-SRC_URI = "git://github.com/home-assistant/core.git;protocol=https;branch=rc \
+SRC_URI = "git://github.com/home-assistant/core.git;protocol=https;branch=master \
            file://homeassistant.service \
            file://run-ptest-sample \
            file://0001-Relax-setuptools.patch \
            "
 SRC_URI[sha256sum] = "f4181f4023feb78cef0be655234200966daa140aea4634dbf3def8b18fd21d48"
-SRCREV = "6c098c3e0a7b6ca2017fe9fb63fbac8d8255f5a5"
+SRCREV = "a75646d047119ca4b5e55458df4af5f812a4a9f1"
 
 inherit python_setuptools_build_meta useradd systemd ptest
 
@@ -56,13 +56,14 @@ require recipes-homeassistant/homeassistant/python3-homeassistant/integrations.i
 require recipes-homeassistant/homeassistant/python3-homeassistant/integrations-tests.inc
 
 #TODO: python3-uv (=0.7.1)
-#TODO: python3-aiohttp (=3.12.6)
+#TODO: python3-aiohttp (=3.12.12)
 RDEPENDS:${PN} += "\
-    python3-aiodns (>=3.4.0) \
+    python3-aiodns (>=3.5.0) \
+    python3-aiofiles (>=24.1.0) \
     python3-aiohasupervisor (=0.3.1) \
     python3-aiohttp (>=3.11.8) \
     python3-aiohttp-cors (=0.7.0) \
-    python3-aiohttp-fast-zlib (=0.2.3) \
+    python3-aiohttp-fast-zlib (=0.3.0) \
     python3-aiohttp-asyncmdnsresolver (=0.1.1) \
     python3-aiozoneinfo (=0.2.3) \
     python3-annotatedyaml (=0.4.5) \
@@ -82,7 +83,7 @@ RDEPENDS:${PN} += "\
     python3-hassil (>=2.2.3) \
     python3-httpx (>=0.28.1) \
     python3-home-assistant-bluetooth (>=1.13.1) \
-    python3-home-assistant-intents (>=2025.5.28) \
+    python3-home-assistant-intents (>=2025.6.10) \
     python3-ifaddr (=0.2.0) \
     python3-jinja2 (>=3.1.6) \
     python3-lru-dict (>=1.3.0) \
@@ -91,7 +92,7 @@ RDEPENDS:${PN} += "\
     python3-pyjwt (=2.10.1) \
     python3-cryptography (>=45.0.1) \
     python3-pillow (>=11.2.1) \
-    python3-propcache (>=0.3.1) \
+    python3-propcache (>=0.3.2) \
     python3-pyopenssl (>=25.1.0) \
     python3-orjson (>=3.10.18) \
     python3-packaging (>=23.1) \
@@ -101,7 +102,7 @@ RDEPENDS:${PN} += "\
     python3-python-slugify (=8.0.4) \
     python3-pyturbojpeg (>=1.7.5) \
     python3-pyyaml (>=6.0.2) \
-    python3-requests (>=2.32.3) \
+    python3-requests (>=2.32.4) \
     python3-securetar (=2025.2.1) \
     python3-sqlalchemy (>=2.0.40) \
     python3-standard-aifc (=3.13.0) \
@@ -112,7 +113,7 @@ RDEPENDS:${PN} += "\
     python3-voluptuous (=0.15.2) \
     python3-voluptuous-serialize (=2.6.0) \
     python3-voluptuous-openapi (=0.1.0) \
-    python3-yarl (>=1.20.0) \
+    python3-yarl (>=1.20.1) \
     python3-webrtc-models (>=0.3.0) \
     python3-zeroconf (>=0.147.0) \
     \

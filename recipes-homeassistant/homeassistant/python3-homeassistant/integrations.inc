@@ -403,7 +403,7 @@ RDEPENDS:${PN}-bluetooth = "\
     python3-bluetooth-auto-recovery (>=1.5.1) \
     python3-bluetooth-data-tools (>=1.28.1) \
     python3-dbus-fast (>=2.33.0) \
-    python3-habluetooth (>=3.48.2) \
+    python3-habluetooth (>=3.49.0) \
 "
 
 ALLOW_EMPTY:${PN}-bluetooth-tracker = "1"
@@ -445,7 +445,7 @@ RDEPENDS:${PN}-compensation = "\
 ALLOW_EMPTY:${PN}-conversation = "1"
 RDEPENDS:${PN}-conversation = "\
     python3-hassil (>=2.2.3) \
-    python3-home-assistant-intents (>=2025.5.7) \
+    python3-home-assistant-intents (>=2025.6.10) \
 "
 
 ALLOW_EMPTY:${PN}-cpuspeed = "1"
@@ -519,7 +519,7 @@ RDEPENDS:${PN}-fritzbox-callmonitor = "\
 
 ALLOW_EMPTY:${PN}-frontend = "1"
 RDEPENDS:${PN}-frontend = "\
-    python3-home-assistant-frontend (>=20250516.0) \
+    python3-home-assistant-frontend (>=20250531.3) \
 "
 
 ALLOW_EMPTY:${PN}-generic = "1"
@@ -611,12 +611,12 @@ RDEPENDS:${PN}-letpot = "\
 
 ALLOW_EMPTY:${PN}-local-calendar = "1"
 RDEPENDS:${PN}-local-calendar = "\
-    python3-ical (>=9.2.4) \
+    python3-ical (>=10.0.0) \
 "
 
 ALLOW_EMPTY:${PN}-local-todo = "1"
 RDEPENDS:${PN}-local-todo = "\
-    python3-ical (>=9.2.4) \
+    python3-ical (>=10.0.0) \
 "
 
 ALLOW_EMPTY:${PN}-luftdaten = "1"
