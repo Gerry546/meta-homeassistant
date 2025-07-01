@@ -6,7 +6,7 @@ RECIPE_MAINTAINER = "Tom Geelen <t.f.g.geelen@gmail.com>"
 
 inherit pypi python_setuptools_build_meta ptest-python-pytest
 
-SRC_URI[sha256sum] = "5ad763db8a0a63e7ecd59b6d3264f1c137f89d2b7d087b9359919d2948302d73"
+SRC_URI[sha256sum] = "538aed78f37646eacc6110b9342ac4dc33fc10093cf9884c478a29bbce27cab9"
 
 PYPI_PACKAGE = "home_assistant_intents"
 UPSTREAM_CHECK_PYPI_PACKAGE = "${PYPI_PACKAGE}"
