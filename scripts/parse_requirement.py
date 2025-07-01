@@ -204,8 +204,8 @@ def parse_manifests(ha_path, upgrade_only, integrations_only):
             if not requirements:
                 if should_include(
                     manifest["domain"],
-                    '-',
-                    '-',
+                    '',
+                    '',
                     integrations,
                     upgrade_only,
                     integrations_only,
