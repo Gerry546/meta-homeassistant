@@ -14,7 +14,9 @@ git clone https://git.yoctoproject.org/git/poky
 cd poky
 git clone https://github.com/openembedded/meta-openembedded.git
 git clone https://github.com/zboszor/meta-python-ai.git
+git clone https://github.com/zboszor/meta-clang-revival.git
 git clone https://github.com/meta-homeassistant/meta-homeassistant.git
+git clone https://github.com/priv-kweihmann/meta-sca.git
 
 . ./oe-init-build-env
 
@@ -22,6 +24,8 @@ bitbake-layers add-layer ../meta-openembedded/meta-oe
 bitbake-layers add-layer ../meta-openembedded/meta-python
 bitbake-layers add-layer ../meta-openembedded/meta-networking
 bitbake-layers add-layer ../meta-python-ai
+bitbake-layers add-layer ../meta-clang-revival
+bitbake-layers add-layer ../meta-sca
 bitbake-layers add-layer ../meta-homeassistant
 
 bitbake core-image-homeassistant
@@ -40,7 +44,7 @@ The two main entry points are `kas/homeassistant-main.yml` and `kas/homeassistan
 
 To build against latest Yocto master use:
 
-```
+```sh
 kas build kas/homeassistant-main.yml
 ```
 
@@ -48,22 +52,30 @@ kas build kas/homeassistant-main.yml
 
 The dependencies are locked to a given version. In order to update the layers run:
 
-```
+```sh
 kas lock --update kas/homeassistant-main.yml
 ```
 
 # Dependencies
 
-```
+```sh
 URI: https://git.yoctoproject.org/git/poky
 branch: master
 revision: HEAD
 
-URI: https://github.com/openembedded/meta-openembedded.git
+URI: https://github.com/openembedded/meta-openembedded
 branch: master
 revision: HEAD
 
-URI: https://github.com/zboszor/meta-python-ai.git
+URI: https://github.com/zboszor/meta-python-ai
+branch: master
+revision: HEAD
+
+URI: https://github.com/zboszor/meta-clang-revival
+branch: main
+revision: HEAD
+
+URI: https://github.com/priv-kweihmann/meta-sca
 branch: master
 revision: HEAD
 ```
@@ -73,7 +85,10 @@ Why are these needed?
 - [meta-oe](https://github.com/openembedded/meta-openembedded/tree/master/meta-oe) : contains meta-python
 - [meta-python](https://github.com/openembedded/meta-openembedded/tree/master/meta-python) : contains many of the required python3 packages
 - [meta-networking](https://github.com/openembedded/meta-openembedded/tree/master/meta-networking) : contains several networking oriented python3 packages
-- [meta-python-ai](https://github.com/zboszor/meta-python-ai.git) : contains several python recipes needed (such as python3-scipy)
+- [meta-multimedia](https://github.com/openembedded/meta-openembedded/tree/master/meta-networking) : contains several multimedia recipes for integrations.
+- [meta-python-ai](https://github.com/zboszor/meta-python-ai) : contains several python recipes needed (such as python3-scipy)
+- [meta-clang-revival](https://github.com/zboszor/meta-clang-revival) : needed for meta-python-ai.
+- [meta-sca](https://github.com/priv-kweihmann/meta-sca) : has several `native` packages which are needed for compiling integrations.
 
 Note: HomeAssistant regularly uses the very latest versions of python packages in their builds. This also means that from a Yocto/OE perspective the team is forced to keep track of master as the very latest pushes to the dependency layers are often required for succesfull builds and satisfying dependency requirements. Therefore this repository tracks the upstream master branch and currently no older releases of Yocto are specifically supported.
 
@@ -98,7 +113,7 @@ The layer is structured in the following way:
 - recipes-homeassistant/homeassistant: contains the core recipe needed to run homeassistant via Yocto
 - recipes-homeassistant/images: contains sample images to build
 - recipes-devtools: contains all Yocto python recipes which are needed for all the supported integrations.
-- recipes-multimedia: contains a backported older version of ffmpeg. Current master support version 7 but HomeAssistant does not yet.
+- recipes-support: contains append files needed for particular integrations.
 - scripts: convenience scripts for easier upgrades between versions.
 
 # Testing
@@ -112,6 +127,6 @@ Please submit any patches against meta-homeassistant as Pull Requests on Github.
 
 ## Maintainers
 
-* Pascal Bach <pascal.bach@nextrem.ch>
-* Tom Geelen <t.f.g.geelen@gmail.com>
-* Tim "moto-timo" Orling <ticotimo@gmail.com>
+- Pascal Bach <pascal.bach@nextrem.ch>
+- Tom Geelen <t.f.g.geelen@gmail.com>
+- Tim "moto-timo" Orling <ticotimo@gmail.com>
