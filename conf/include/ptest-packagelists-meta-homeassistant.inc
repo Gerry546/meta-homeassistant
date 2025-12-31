@@ -27,6 +27,7 @@ PTESTS_FAST_META_HOMEASSISTANT = "\
     python3-arcam-fmj \
     python3-async-upnp-client \
     python3-aurorapy \
+    python3-automower-ble \
     python3-axis \
 "
 
