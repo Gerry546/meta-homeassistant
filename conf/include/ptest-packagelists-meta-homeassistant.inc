@@ -21,6 +21,7 @@ PTESTS_FAST_META_HOMEASSISTANT = "\
     python3-alarmdecoder \
     python3-amcrest \
     python3-arcam-fmj \
+    python3-async-upnp-client \
 "
 
 PTESTS_SLOW_META_HOMEASSISTANT = "\
@@ -34,7 +35,6 @@ PTESTS_PROBLEMS_MISSES_TEST_FILES_META_HOMEASSISTANT = "\
     python3-aioesphomeapi \
     python3-aiohasupervisor \
     python3-androidtv \
-    python3-async-upnp-client \
 "
 
 PTESTS_NEEDS_ETHERNET_META_HOMEASSISTANT = "\
