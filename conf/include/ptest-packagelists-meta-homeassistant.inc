@@ -34,6 +34,7 @@ PTESTS_FAST_META_HOMEASSISTANT = "\
     python3-axis \
     python3-blinkpy \
     python3-bluetooth-adapters \
+    python3-crccheck \
 "
 
 PTESTS_SLOW_META_HOMEASSISTANT = "\
