@@ -57,15 +57,18 @@ COMPONENT_TEST_PACKAGES:append = "\
     ${PN}-aosmith \
     ${PN}-apache-kafka \
     ${PN}-apcupsd \
+    ${PN}-api \
     ${PN}-apple-tv \
     ${PN}-application-credentials \
     ${PN}-aprilaire \
     ${PN}-aprs \
     ${PN}-apsystems \
+    ${PN}-aquacell \
     ${PN}-aranet \
     ${PN}-arcam-fmj \
     ${PN}-arve \
     ${PN}-aseko-pool-live \
+    ${PN}-assist-satellite \
     ${PN}-asuswrt \
     ${PN}-august \
     ${PN}-aurora \
