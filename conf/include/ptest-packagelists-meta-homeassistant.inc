@@ -36,6 +36,7 @@ PTESTS_FAST_META_HOMEASSISTANT = "\
     python3-bimmer-connected \
     python3-blinkpy \
     python3-bluetooth-adapters \
+    python3-bring-api \
     python3-btsocket \
     python3-cookidoo-api \
     python3-crccheck \
