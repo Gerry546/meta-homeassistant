@@ -13,6 +13,7 @@ PTESTS_FAST_META_HOMEASSISTANT = "\
     python3-aioconsole \
     python3-aiodiscover \
     python3-aioecowitt \
+    python3-aioesphomeapi \
     python3-aiohttp-asyncmdnsresolver \
     python3-aiorun \
     python3-aioruuvigateway \
@@ -32,7 +33,6 @@ PTEST_NEEDS_INVESTIGATION_META_HOMEASSISTANT = "\
 
 PTESTS_PROBLEMS_MISSES_TEST_FILES_META_HOMEASSISTANT = "\
     python3-aioazuredevops \
-    python3-aioesphomeapi \
     python3-aiohasupervisor \
     python3-androidtv \
 "
