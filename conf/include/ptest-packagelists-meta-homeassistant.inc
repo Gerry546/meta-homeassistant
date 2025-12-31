@@ -32,6 +32,7 @@ PTESTS_FAST_META_HOMEASSISTANT = "\
     python3-aurorapy \
     python3-automower-ble \
     python3-axis \
+    python3-blinkpy \
 "
 
 PTESTS_SLOW_META_HOMEASSISTANT = "\
