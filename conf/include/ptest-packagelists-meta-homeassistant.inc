@@ -26,6 +26,7 @@ PTESTS_FAST_META_HOMEASSISTANT = "\
     python3-androidtvremote2 \
     python3-arcam-fmj \
     python3-arris-tg2492lg \
+    python3-asusrouter \
     python3-async-upnp-client \
     python3-audioop-lts \
     python3-aurorapy \
