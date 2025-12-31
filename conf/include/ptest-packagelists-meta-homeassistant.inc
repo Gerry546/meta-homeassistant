@@ -17,6 +17,7 @@ PTESTS_FAST_META_HOMEASSISTANT = "\
     python3-aiorun \
     python3-aioruuvigateway \
     python3-aiousbwatcher \
+    python3-airos \
     python3-alarmdecoder \
     python3-amcrest \
     python3-arcam-fmj \
@@ -32,7 +33,6 @@ PTESTS_PROBLEMS_MISSES_TEST_FILES_META_HOMEASSISTANT = "\
     python3-aioazuredevops \
     python3-aioesphomeapi \
     python3-aiohasupervisor \
-    python3-airos \
     python3-androidtv \
     python3-async-upnp-client \
 "
