@@ -44,5 +44,6 @@ PTESTS_SLOW_META_HOMEASSISTANT = "\
 
 PTESTS_NEEDS_ETHERNET_META_HOMEASSISTANT = "\
     python3-aioairq \
+    python3-anthropic \
     python3-uvloop \
 "
