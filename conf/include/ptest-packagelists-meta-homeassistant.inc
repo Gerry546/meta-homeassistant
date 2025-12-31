@@ -16,6 +16,7 @@ PTESTS_FAST_META_HOMEASSISTANT = "\
     python3-aioruuvigateway \
     python3-aiousbwatcher \
     python3-alarmdecoder \
+    python3-arcam-fmj \
 "
 
 PTESTS_SLOW_META_HOMEASSISTANT = "\
