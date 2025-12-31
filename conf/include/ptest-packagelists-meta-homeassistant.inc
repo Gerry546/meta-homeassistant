@@ -28,6 +28,7 @@ PTESTS_FAST_META_HOMEASSISTANT = "\
     python3-arris-tg2492lg \
     python3-asusrouter \
     python3-async-upnp-client \
+    python3-asyncstdlib \
     python3-audioop-lts \
     python3-aurorapy \
     python3-automower-ble \
