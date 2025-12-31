@@ -3,11 +3,10 @@
 # Please keep these sorted in alphabetical order
 #
 # A first pass at getting all meta-homeassistant recipes which inherit ptest
-# bitbake-layers show-recipes --recipes-only --layer meta-homeassistant --inherits ptest --bare | tr '\n' ' ' | pcregrep -o1 '^NOTE:.+===(.+)$''
+# bitbake-layers show-recipes --recipes-only --layer meta-homeassistant --inherits ptest --bare | tr '\n' ' ' | pcregrep -o1 '^NOTE:.+===(.+)$'
 #
 PTESTS_FAST_META_HOMEASSISTANT = "\
     python3-accuweather \
-    python3-adb-shell \
     python3-adext \
     python3-aioapcaccess \
     python3-aioconsole \
