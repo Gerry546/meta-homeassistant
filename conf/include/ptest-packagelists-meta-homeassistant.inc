@@ -33,6 +33,7 @@ PTESTS_FAST_META_HOMEASSISTANT = "\
     python3-automower-ble \
     python3-axis \
     python3-blinkpy \
+    python3-bluetooth-adapters \
 "
 
 PTESTS_SLOW_META_HOMEASSISTANT = "\
