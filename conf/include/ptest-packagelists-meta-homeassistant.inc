@@ -41,6 +41,7 @@ PTESTS_FAST_META_HOMEASSISTANT = "\
     python3-btsocket \
     python3-cookidoo-api \
     python3-crccheck \
+    python3-bluecurrent-api \
 "
 
 PTESTS_SLOW_META_HOMEASSISTANT = "\
