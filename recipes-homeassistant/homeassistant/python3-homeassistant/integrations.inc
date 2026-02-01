@@ -175,7 +175,6 @@ INTEGRATIONS = "\
     ${PN}-doorbird \
     ${PN}-dormakaba-dkey \
     ${PN}-dovado \
-    ${PN}-dremel-3d-printer \
     ${PN}-drop-connect \
     ${PN}-dsmr \
     ${PN}-duke-energy \
@@ -220,7 +219,6 @@ INTEGRATIONS = "\
     ${PN}-enocean \
     ${PN}-enphase-envoy \
     ${PN}-entur-public-transport \
-    ${PN}-environment-canada \
     ${PN}-envisalink \
     ${PN}-ephember \
     ${PN}-epic-games-store \
@@ -337,7 +335,6 @@ INTEGRATIONS = "\
     ${PN}-luftdaten \
     ${PN}-matter \
     ${PN}-mcp \
-    ${PN}-mcp-server \
     ${PN}-met \
     ${PN}-mobile-app \
     ${PN}-modbus \
@@ -1312,11 +1309,6 @@ RDEPENDS:${PN}-dovado = "\
     python3-dovado (>=0.4.1) \
 "
 
-ALLOW_EMPTY:${PN}-dremel-3d-printer = "1"
-RDEPENDS:${PN}-dremel-3d-printer = "\
-    python3-dremel3dpy (>=2.1.1) \
-"
-
 ALLOW_EMPTY:${PN}-drop-connect = "1"
 RDEPENDS:${PN}-drop-connect = "\
     python3-dropmqttapi (>=1.0.3) \
@@ -1536,11 +1528,6 @@ RDEPENDS:${PN}-enphase-envoy = "\
 ALLOW_EMPTY:${PN}-entur-public-transport = "1"
 RDEPENDS:${PN}-entur-public-transport = "\
     python3-enturclient (>=0.2.4) \
-"
-
-ALLOW_EMPTY:${PN}-environment-canada = "1"
-RDEPENDS:${PN}-environment-canada = "\
-    python3-env-canada (>=0.11.2) \
 "
 
 ALLOW_EMPTY:${PN}-envisalink = "1"
@@ -2137,13 +2124,6 @@ RDEPENDS:${PN}-matter = "\
 ALLOW_EMPTY:${PN}-mcp = "1"
 RDEPENDS:${PN}-mcp = "\
     python3-mcp (>=1.5.0) \
-"
-
-ALLOW_EMPTY:${PN}-mcp-server = "1"
-RDEPENDS:${PN}-mcp-server = "\
-    python3-mcp (>=1.5.0) \
-    python3-aiohttp-sse (>=2.2.0) \
-    python3-anyio (>=4.9.0) \
 "
 
 ALLOW_EMPTY:${PN}-met = "1"

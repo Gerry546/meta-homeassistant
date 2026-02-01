@@ -179,7 +179,6 @@ IMAGE_INSTALL = "\
     python3-homeassistant-doorbird \
     python3-homeassistant-dormakaba-dkey \
     python3-homeassistant-dovado \
-    python3-homeassistant-dremel-3d-printer \
     python3-homeassistant-drop-connect \
     python3-homeassistant-dsmr \
     python3-homeassistant-duke-energy \
@@ -224,7 +223,6 @@ IMAGE_INSTALL = "\
     python3-homeassistant-enocean \
     python3-homeassistant-enphase-envoy \
     python3-homeassistant-entur-public-transport \
-    python3-homeassistant-environment-canada \
     python3-homeassistant-envisalink \
     python3-homeassistant-ephember \
     python3-homeassistant-epic-games-store \
@@ -341,7 +339,6 @@ IMAGE_INSTALL = "\
     python3-homeassistant-luftdaten \
     python3-homeassistant-matter \
     python3-homeassistant-mcp \
-    python3-homeassistant-mcp-server \
     python3-homeassistant-met \
     python3-homeassistant-mobile-app \
     python3-homeassistant-modbus \
