@@ -6,7 +6,7 @@ RECIPE_MAINTAINER = "Tom Geelen <t.f.g.geelen@gmail.com>"
 
 SRC_URI = "git://github.com/Fatal1ty/mashumaro.git;protocol=https;branch=master"
 SRC_URI[sha256sum] = "169f0290253b3e6077bcb39c14a9dd0791a3fdedd9e286e536ae561d4ff1975b"
-SRCREV = "58d6a4ad751086302c3ae71ac0907c56f9beed5a"
+SRCREV = "420fa09a509ee6d4f63917aeecb44cc65522dfc8"
 
 inherit python_setuptools_build_meta ptest-python-pytest
 
