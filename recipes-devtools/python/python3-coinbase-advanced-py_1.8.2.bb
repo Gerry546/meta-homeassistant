@@ -20,7 +20,7 @@ RDEPENDS:${PN} += "\
 # This package incorrectly tries to package RDEPENDS as well.
 # Explicitly remove them
 do_install:append() {
-    rm -rf ${D}${libdir}/${PYTHON_DIR}/site-packages/coinbase/__pycache__/__init__.cpython-313.pyc
+    rm -rf ${D}${libdir}/${PYTHON_DIR}/site-packages/coinbase/__pycache__/__init__.cpython*
     rm -rf ${D}${libdir}/${PYTHON_DIR}/site-packages/coinbase/__init__.py
 }
 

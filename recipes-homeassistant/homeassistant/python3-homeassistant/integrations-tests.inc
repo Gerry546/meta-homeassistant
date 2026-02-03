@@ -211,7 +211,6 @@ COMPONENT_TEST_PACKAGES:append = "\
     ${PN}-enigma2 \
     ${PN}-enocean \
     ${PN}-enphase-envoy \
-    ${PN}-environment-canada \
     ${PN}-epic-games-store \
     ${PN}-epion \
     ${PN}-epson \
